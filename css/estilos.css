@@ -1,0 +1,220 @@
+/********************************************************************************************/
+/*********************************  GENÉRICOS   *********************************************/
+/********************************************************************************************/
+
+
+
+/********************************************************************************************/
+/*********************************  BODY   **************************************************/
+/********************************************************************************************/
+
+body {
+
+    margin: auto;
+    padding: 0;
+    width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgb(52, 50, 63);
+    margin-top: 10px;
+}
+
+
+/********************************************************************************************/
+/******************************   BODY HEADER   *********************************************/
+/********************************************************************************************/
+
+
+body header {
+
+    margin: 0px;
+    padding: 20px;
+    background-color: #1a5632;
+    border-top-right-radius: 20px;
+    box-shadow: 2px 5px 12px #818892;
+    text-transform: uppercase;
+    font-family: 'arvo', arial;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+
+
+/********************************************************************************************/
+/******************************   NAVEGADORES   *********************************************/
+/********************************************************************************************/
+
+nav {
+
+    margin: 0;
+    padding: 0;
+    background-color:  #ffffff;
+    box-shadow: 2px 5px 12px #818892;
+    border-bottom-right-radius: 15px;
+
+}
+
+nav ul {
+
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    border-bottom-right-radius: 15px;
+  }
+  
+nav li a {
+
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+nav li a:hover {
+    background-color: #111111;
+  }
+
+
+
+/********************************************************************************************/
+/**********************************   SECTIONS   *********************************************/
+/********************************************************************************************/
+
+section {
+    
+    width: 100%;   
+    box-shadow: 2px 5px 12px #818892;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 15px;
+
+}
+
+section header {
+
+    background-color: #d7263d; 
+    border-top-right-radius: 20px;
+    box-shadow: 2px 5px 12px #818892;
+    font-size: medium;
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: 20px;
+
+}
+
+table {
+
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+    font-family: 'arvo', arial;
+    font-size: small;
+    
+}
+    
+td, th {
+
+    border: 1px solid rgb(153, 144, 194);
+    padding: 10px;
+    text-align: left;
+
+
+}
+
+
+th {
+
+    background-color: #e7f1eb;
+}
+
+tr:hover {background-color:#e7f1eb;}
+
+
+/********************************************************************************************/
+/**********************************   FORMUJLARIO   *********************************************/
+/********************************************************************************************/
+
+
+form {
+
+    padding: 20px;
+}
+
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    background-color: #e7f1eb;
+  }
+
+input[type=email], select, textarea{
+
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    background-color: #e7f1eb;
+}
+
+/* Style the label to display next to the inputs */
+label {
+
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+/* Style the submit button */
+
+input[type=submit] {
+
+    display: block;
+    padding: 10px;
+    border: none;
+    border-radius:30px;
+    width: 100px;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 40px;
+    text-decoration:none;
+    font-family: 'arvo', arial;
+    font-weight: bold;
+    font-size: small;
+    color: white;
+    background-color: #1DA1F2;
+    margin-top: 20px;
+    box-shadow: 2px 5px 12px #818892;
+
+}
+  
+
+/********************************************************************************************/
+/**********************************   FOOTER   *********************************************/
+/********************************************************************************************/
+
+body footer {
+
+    margin: 0px;
+    padding: 30px; 
+    background-color: #1a5632;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    box-shadow: 2px 5px 12px #818892;
+    text-transform: uppercase;
+    font-family: 'arvo', arial;
+    font-size: smaller;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
