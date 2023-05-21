@@ -1,28 +1,50 @@
 <?xml version="1.0"?>
 <ite>
-	<nombre>Instituto Tecnológico Edix</nombre>
+	<nombre>Instituto TecnolÃ³gico Edix</nombre>
 	<web>https://institutotecnologico.edix.com</web>
 	<director>
 		<nombre>Chon</nombre>
-		<despacho>Numero 31, 3ª Planta, Edificio A</despacho>
+		<despacho>Numero 31, 3ï¿½ Planta, Edificio A</despacho>
 	</director>
 	<jefe_estudios>
 		<nombre>Dani</nombre>
-		<despacho>Numero 27, 2ª Planta, Edificio B</despacho>
+		<despacho>Numero 27, 2ï¿½ Planta, Edificio B</despacho>
 	</jefe_estudios>
 	<profesores>
 		<profesor id="1">
-			<nombre>Félix</nombre>
+			<nombre>Fï¿½lix</nombre>
 		</profesor>
 		<profesor id="2">
-			<nombre>Raúl</nombre>
+			<nombre>Raï¿½l</nombre>
 		</profesor>
 		<profesor id="3">
 			<nombre>Raquel</nombre>
 		</profesor>
 		<profesor id="4">
-			<nombre>Tomás</nombre>
+			<nombre>Tomï¿½s</nombre>
 		</profesor>
 	</profesores>
-	<ciclos/>
+	<ciclos>
+		<ciclo id="ASIR">
+			<nombre>Administraciï¿½n de Sistemas Informï¿½ticos en Red</nombre>
+			<grado>Superior</grado>
+			<decretoTitulo>
+				<aÃ±o>2009</aÃ±o>
+			</decretoTitulo>
+		</ciclo>
+		<ciclo id="DAW">
+			<nombre>Desarrollo de Aplicaciones Web</nombre>
+			<grado>Superior</grado>
+			<decretoTitulo>
+				<aÃ±o>2010</aÃ±o>
+			</decretoTitulo>
+		</ciclo>
+		<ciclo id="DAM">
+			<nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+			<grado>Superior</grado>
+			<decretoTitulo>
+				<aÃ±o>2010</aÃ±o>
+			</decretoTitulo>
+		</ciclo>
+	</ciclos>
 </ite>

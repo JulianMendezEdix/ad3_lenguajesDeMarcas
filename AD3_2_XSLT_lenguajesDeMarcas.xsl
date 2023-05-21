@@ -24,7 +24,7 @@
                 </xsl:for-each>
             </profesores>
             <ciclos>
-                <xsl:for-each select="ite/cursos/curso">
+                <xsl:for-each select="ite/ciclos/ciclo">
                     <ciclo>
                         <xsl:attribute name="id">
                             <xsl:value-of select="@id"/>
@@ -33,7 +33,7 @@
                         <grado><xsl:value-of select="grado"/></grado>
                         <decretoTitulo>
                             <año>
-                                <xsl:value-of select="decretotitulo/@año"/>
+                                <xsl:value-of select="decretoTitulo/@año"/>
                             </año>
                         </decretoTitulo>
                     </ciclo>
