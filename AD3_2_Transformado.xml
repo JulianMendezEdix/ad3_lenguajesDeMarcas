@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ite>
+	<nombre>Instituto Tecnológico Edix</nombre>
+	<web>https://institutotecnologico.edix.com</web>
+	<director>
+		<nombre>Chon</nombre>
+		<despacho>Numero 31, 3ª Planta, Edificio A</despacho>
+	</director>
+	<jefe_estudios>
+		<nombre>Dani</nombre>
+		<despacho>Numero 27, 2ª Planta, Edificio B</despacho>
+	</jefe_estudios>
+	<profesores>
+		<profesor id="1">
+			<nombre>Félix</nombre>
+		</profesor>
+		<profesor id="2">
+			<nombre>Raúl</nombre>
+		</profesor>
+		<profesor id="3">
+			<nombre>Raquel</nombre>
+		</profesor>
+		<profesor id="4">
+			<nombre>Tomás</nombre>
+		</profesor>
+	</profesores>
+	<ciclos/>
+</ite>
