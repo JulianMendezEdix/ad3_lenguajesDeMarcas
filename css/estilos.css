@@ -9,7 +9,7 @@
 /********************************************************************************************/
 
 body {
-
+    
     margin: auto;
     padding: 0;
     width: 800px;
@@ -76,6 +76,7 @@ nav li a {
   
 nav li a:hover {
     background-color: #111111;
+    color: #d7263d;
   }
 
 
@@ -109,7 +110,7 @@ table {
 
     margin: auto;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     font-family: 'arvo', arial;
     font-size: small;
     
@@ -134,13 +135,13 @@ tr:hover {background-color:#e7f1eb;}
 
 
 /********************************************************************************************/
-/**********************************   FORMUJLARIO   *********************************************/
+/**********************************   FORMULARIO   *********************************************/
 /********************************************************************************************/
 
 
 form {
 
-    padding: 20px;
+    padding: 10px;
 }
 
 /* Style inputs, select elements and textareas */
@@ -149,9 +150,6 @@ input[type=text], select, textarea{
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    resize: vertical;
     background-color: #e7f1eb;
   }
 
@@ -160,9 +158,6 @@ input[type=email], select, textarea{
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    resize: vertical;
     background-color: #e7f1eb;
 }
 

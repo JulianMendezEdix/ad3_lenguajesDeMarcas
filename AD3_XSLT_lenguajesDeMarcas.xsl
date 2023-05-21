@@ -114,16 +114,14 @@
                 </table>
             </section>
             <section id="contacto">
-                <header>Contacto</header>
+                <header>Más informacion</header>
                 <form action="procesarPeticion.jsp" method="post">
                     <fieldset>
                         <legend>Formulario de contacto</legend>
                         <label for="nombre">Nombre</label>
                         <input name="nombre" type="text"/>
-                        <br/>
                         <label for="apellidos">Apellidos</label>
                         <input name="apellidos" type="text"/>
-                        <br/>
                         <label for="email">Email</label>
                         <input name="email" type="email"/>
                         <br/>
@@ -136,12 +134,13 @@
                         <input name="ciclo" type="radio" value="DAM"/>DAM
                         <input name="ciclo" type="radio" value="ASIR"/>ASIR
                         <br/>
+                        <br/>
                         <input type="submit" value="ENVIAR"/>
                     </fieldset>
                 </form>
             </section>
             <footer>
-                Web realizada por @JulianMendez. Todos los derechos reservados
+                Webmaster @JulianMendez. Todos los derechos reservados
             </footer>
         </body>
         </html>
