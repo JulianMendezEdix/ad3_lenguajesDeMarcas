@@ -42,12 +42,12 @@ IMPORTANTE: Cada alumno propondrá una solución de XML resultante. Una vez todo
 
 # REQUERIMIENTO 1
 
-![Presentación1_page-0001](img\1.jpg)
+![Presentación1_page-0001](img/1.jpg)
 
 
 # REQUERIMIENTO 2
 
-![Presentación1_page-0001](img\2.jpg)
+![Presentación1_page-0001](img/2.jpg)
 
 ## Conclusiones grupales
 
